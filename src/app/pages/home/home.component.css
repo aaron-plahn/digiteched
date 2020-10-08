@@ -1,0 +1,11 @@
+img {
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px #ccc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    text-align: center;
+}
