@@ -1,0 +1,38 @@
+#logo {
+    border-radius: 50%;
+}
+
+.navbar{
+    background-image: linear-gradient(white, blue,darkblue,black);
+}
+
+
+@media (max-width: 768px) {
+    #mobilebutton {margin-top: -100px; margin-bottom: 50px;}
+}
+
+@media (max-width: 1200px) {
+    #navbarResponsive {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-backdrop-filter: blur(15px) brightness(65%);
+        backdrop-filter: blur(15px) brightness(65%);
+    }
+}
+
+.navbar-brand {
+    margin-left: 25px;
+}
+
+.navbar {
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.384), 0 6px 20px 0 rgba(0, 0, 0, 0.384);
+    display: block;
+    color: white;
+    padding: 0px;
+    background-color: rgba(4, 4, 100, 0.301);
+    -webkit-backdrop-filter: blur(15px) brightness(65%);
+    backdrop-filter: blur(15px) brightness(65%);
+    width: 100%;
+}
