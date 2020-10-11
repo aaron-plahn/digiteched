@@ -1,1 +1,13 @@
-<p>work works!</p>
+<h1>Work</h1>
+<div *ngFor="let item of items">
+    <h2>{{ item.employer }}</h2>
+    <div *ngFor="let job of item.jobs">
+        <h3>{{ job.position }}</h3>
+        <p>{{ job.startDate }} - {{ job.endDate }}</p>
+        <ul>
+            <li *ngFor = "let point of job.bullets">
+                {{ point }}
+            </li>
+        </ul>
+    </div>
+</div>

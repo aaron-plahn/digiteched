@@ -14,3 +14,15 @@ export type EducationItem = {
     endDate?: string,
     bullets: string[]
 }
+
+export type JobItem = {
+    position: string,
+    startDate: string,
+    endDate?: string,
+    bullets: string[]
+}
+
+export type WorkItem = {
+    employer: string,
+    jobs: JobItem[]
+}
