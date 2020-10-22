@@ -16,7 +16,6 @@ export class NavbarComponent implements OnInit {
     {name:"projects", routerLink:"/projects", display:"Projects"},
     {name:"work", routerLink:"/work", display:"Work"},
     {name:"education", routerLink:"/education", display:"Education"},
-    {name:"tutorials", routerLink:"/tutorials", display:"Tutorials"},
     {name:"links", routerLink:"/links", display:"Links"}
   ];
 
